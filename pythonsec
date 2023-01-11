@@ -1,5 +1,4 @@
 import requests
 #request = requests.get('https://www.domain.com/')
 request = requests.get('https://www.domain.com/', cookies={"name" : "Value" }).text
-
- print(request)
+print(request)
